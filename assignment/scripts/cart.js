@@ -5,12 +5,13 @@ console.log('***** Cart Functions *****');
 let basket = [];
 
 function addItem(itemsInBasket) {
-    console.log('added', itemsInBasket, itemsInBasket, 'to basket');
-    addItem.push(itemsInBasket);
+    console.log('added', itemsInBasket, 'to basket');
+    basket.push(itemsInBasket);
     return basket;
 }
 addItem('avocado');
 addItem('eggs');
+console.log(basket);
 
 // function addItem(){
 //     if(add)
