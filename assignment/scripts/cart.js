@@ -23,7 +23,7 @@ addItem('banana');
     console.log(basket);
 addItem('bread');
     console.log(basket);
-// console.log(basket);
+
 
 // Create function called `listItems` that loops over the `basket` array and logs each item //
 
@@ -33,11 +33,6 @@ function listItems(basketWithItems){
     }
 }
     listItems(basket);
-    // console.log(listItems(basket));
-
-
-// let newArray = ['Brii', 'Chris', 'Kevin', 'Soul'];
-// listItems(newArray)
 
 // Create a function called `empty` that empties the `basket` array //
 
@@ -49,7 +44,13 @@ function empty(itemsInBasket) {
     empty(basket)
     console.log(`In my basket:`, basket);
 
+// STRETCH: Add a global const named `maxItems` and set it to 5 //
 
+const maxItems = 5;
+
+// Create a function called `isFull` that correctly returns boolean `false` //
+
+function isFull()
 
 // DO NOT MODIFY
 // Used for automated testing
