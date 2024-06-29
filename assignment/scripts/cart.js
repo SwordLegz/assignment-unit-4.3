@@ -19,11 +19,17 @@ addItem('avocado');
 addItem('eggs');
 addItem('banana');
 addItem('bread');
-console.log(basket);
+// console.log(basket);
 
+// `listItems` loops over `basket` array and logs each item //
 
-
-
+function listItems(basketWithItems){
+    for (eachItemInBasket of basketWithItems) {
+        console.log(eachItemInBasket)
+    }
+}
+    listItems(basket);
+    // console.log(listItems(basket));
 
 
 
