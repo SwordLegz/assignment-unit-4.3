@@ -2,13 +2,13 @@ console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
 
-// Created global variable for `basket` as empty array //
+// Create a global variable for `basket` as an empty array //
 
 let basket = [];
     console.log('Here is my basket:');
 
-// `addItem` function takes in an item, adds to the array //
-// `addItem` function returns true //
+// Creat a function called `addItem` that takes in an item, and adds it to the array //
+// Create a function called `addItem` that returns true //
 
 function addItem(itemsInBasket) {
     console.log('added', itemsInBasket, 'to basket');
@@ -16,12 +16,16 @@ function addItem(itemsInBasket) {
     return true;
 }
 addItem('avocado');
+    console.log(basket);
 addItem('eggs');
+    console.log(basket);
 addItem('banana');
+    console.log(basket);
 addItem('bread');
+    console.log(basket);
 // console.log(basket);
 
-// `listItems` loops over `basket` array and logs each item //
+// Create function called `listItems` that loops over the `basket` array and logs each item //
 
 function listItems(basketWithItems){
     for (eachItemInBasket of basketWithItems) {
@@ -32,10 +36,24 @@ function listItems(basketWithItems){
     // console.log(listItems(basket));
 
 
+// let newArray = ['Brii', 'Chris', 'Kevin', 'Soul'];
+// listItems(newArray)
 
+// Create a function called `empty` that empties the `basket` array //
 
+function empty(itemsInBasket) {
+    for (addItems of itemsInBasket){
+        itemsInBasket.splice(addItems)
+        console.log(empty)
+    }
+}
+    empty(basket)
 
-
+// function addItem(itemsInBasket) {
+    // console.log('added', itemsInBasket, 'to basket');
+    // basket.push(itemsInBasket);
+    // return true;
+// basket.pop(eachItemInBasket of basket);
 
 
 
