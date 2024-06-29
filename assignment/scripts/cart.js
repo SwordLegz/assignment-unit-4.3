@@ -42,18 +42,12 @@ function listItems(basketWithItems){
 // Create a function called `empty` that empties the `basket` array //
 
 function empty(itemsInBasket) {
-    for (addItems of itemsInBasket){
-        itemsInBasket.splice(addItems)
-        console.log(empty)
-    }
+    console.log('removed', itemsInBasket, 'in basket');
+    basket.splice(itemsInBasket);
+    return basket;
 }
     empty(basket)
-
-// function addItem(itemsInBasket) {
-    // console.log('added', itemsInBasket, 'to basket');
-    // basket.push(itemsInBasket);
-    // return true;
-// basket.pop(eachItemInBasket of basket);
+    console.log(`In my basket:`, basket);
 
 
 
