@@ -7,7 +7,7 @@ console.log('***** Cart Functions *****');
 let basket = [];
     console.log('Here is my basket:');
 
-// Creat a function called `addItem` that takes in an item, and adds it to the array //
+// Create a function called `addItem` that takes in an item, and adds it to the array //
 // Create a function called `addItem` that returns true //
 
 function addItem(itemsInBasket) {
@@ -50,7 +50,7 @@ const maxItems = 5;
 
 // Create a function called `isFull` that correctly returns boolean `false` //
 
-function isFull()
+// function isFull()
 
 // DO NOT MODIFY
 // Used for automated testing
